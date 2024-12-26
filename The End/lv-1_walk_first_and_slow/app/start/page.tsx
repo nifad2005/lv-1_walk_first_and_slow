@@ -2,6 +2,10 @@ import React from 'react'
 
 function page() {
   return (
+    <>
+    <head>
+      <title>Start Walking.</title>
+    </head>
     <main className='w-full py-40 flex flex-col  justify-center items-center text-4xl md:text-8xl'>
       <div className='flex-grow'>
 
@@ -9,6 +13,7 @@ function page() {
       
       </div>
     </main>
+    </>
   )
 }
 

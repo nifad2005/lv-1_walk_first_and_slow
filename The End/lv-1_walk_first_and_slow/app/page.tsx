@@ -2,6 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+
+    <>
+    <head>
+      <title>About Walking.</title>
+    </head>
   <main >
     <div className="h-[450px] W-[100%] text-white bg-slate-900 flex justify-center items-center "> 
       <h1 className="text-6xl font-semibold tracking-wider text-white font-mono"><span className="text-orange-400">Walking</span> is good<span className="text-orange-400">.</span></h1>
@@ -30,5 +35,6 @@ export default function Home() {
       </div>
     </div>
   </main>
+    </>
   );
 }

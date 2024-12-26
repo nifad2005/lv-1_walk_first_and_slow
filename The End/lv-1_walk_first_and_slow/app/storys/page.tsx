@@ -2,6 +2,10 @@ import React from 'react'
 
 function page() {
   return (
+    <>
+      <head>
+        <title>Story of Walking.</title>
+      </head>
     <main>
       <div className="h-[450px] W-[100%] text-white bg-slate-900 flex justify-center items-center "> 
       <h1 className="text-6xl font-semibold tracking-wider text-white font-mono">Stroy of<span className="text-orange-400"> Walking</span>.</h1>
@@ -20,6 +24,7 @@ function page() {
     </div>
       
     </main>
+    </>
   )
 }
 

@@ -5,9 +5,7 @@ import { usePathname } from 'next/navigation'
 import React, { useState } from 'react'
 
 function Navbar() {
-  const [playsound,setPlaysound]= useState<boolean>(true)
   const [handleNav,setHandleNav] = useState(false)
-  console.log(handleNav)
   const pathname = usePathname()
   return (
     <nav className='w-full border-b  backdrop-blur-md px-10'>
